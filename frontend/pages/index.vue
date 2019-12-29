@@ -5,11 +5,7 @@
 </template>
 
 <script>
-import Nav from '~/components/Navbar.vue'
-
-export default {
-  components: {
-    Nav
+  export default {
+    middleware: ['auth']
   }
-}
 </script>
