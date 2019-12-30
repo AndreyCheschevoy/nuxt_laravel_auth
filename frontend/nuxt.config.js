@@ -36,7 +36,7 @@ export default {
   css: [],
 
   router: {
-    middleware: ['clearValidationErrors', 'guests']
+    middleware: ['clearValidationErrors']
   },
 
   /*
